@@ -31,7 +31,6 @@ The same applies to the Google Drive API, only difference being that the variabl
 Python Anywhere can download the video files to its file manager in a way that their paths can be used as parameters to OpenCV method "captureVideo". The video files were originally kept in the PythonAnywhere file manager itself, but it has a storage limit for free users. And that's where the Google Drive API comes in handy.
 By using it to download one video at a time(and deleting after using it to avoid flooding), it can "produce" frames and upload them to the Google Drive, where the second script hosted on Heroku.com can access the frames and upload them(and then also delete them from the drive to avoid flooding). The second script is always-on-task.
 
-##  The Bot
 ## You can find the bot [here!](https://twitter.com/BotJorel)
 
 ![jorel](joreLFrame.jpeg)  
