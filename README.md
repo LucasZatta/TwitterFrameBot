@@ -9,14 +9,14 @@ Using Google Drive API and Twitter API the bot can download images from the driv
 
 ### Frame.py
 
-The episodes are stored in the Drive as .mkv files. This first script(hosted on [a linl](https://www.pythonanywhere.com), selects a random video file and Downloads it using the Google Drive API. Using OpenCV, it save a random frame from the episode and uploads it to the Drive.
+The episodes are stored in the Drive as .mkv files. This first script(hosted on [PythonAnywhere](https://www.pythonanywhere.com), selects a random video file and Downloads it using the Google Drive API. Using OpenCV, it save a random frame from the episode and uploads it to the Drive.
 After uploading the frame to the drive, both the frame and the video get deleted from the PythonAnywhere file manager to avoid flooding.
 
 This script runs daily and uploads 24 frames to the Drive(one for every hour of the day).
 
 ### PostBot.py
 
-This script(hosted on [a second lik](https://www.heroku.com) uses the Google Drive API to select a random image file(the random frame uploaded with the previous script) and downloads it. Then, using the Twython lib to access the Twitter API, the image downloaded is uploaded to the account timeline as a Tweet.
+This script(hosted on [Heroku](https://www.heroku.com) uses the Google Drive API to select a random image file(the random frame uploaded with the previous script) and downloads it. Then, using the Twython lib to access the Twitter API, the image downloaded is uploaded to the account timeline as a Tweet.
 Right after a image is tweeted, it is also removed from the drive, in order to avoid flooding and repeated images being tweeted.
 
 To achieve the "hourly" effect, the script uses time.sleep(3600). The parameters are in seconds, and can be changed to achieve the desired time interval.
@@ -32,4 +32,8 @@ Python Anywhere can download the video files to its file manager in a way that t
 By using it to download one video at a time(and deleting after using it to avoid flooding), it can "produce" frames and upload them to the Google Drive, where the second script hosted on Heroku.com can access the frames and upload them(and then also delete them from the drive to avoid flooding). The second script is always-on-task.
 
 ##  The Bot
-## You can find the bot on [link bot](https://twitter.com/BotJorel)
+## You can find the bot [here!](https://twitter.com/BotJorel)
+
+![jorel](joreLFrame.jpeg)  
+
+Thanks for reading!
