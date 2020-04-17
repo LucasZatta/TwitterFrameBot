@@ -9,7 +9,7 @@ Using Google Drive API and Twitter API the bot can download images from the driv
 
 ### Frame.py
 
-The episodes are stored in the Drive as .mkv files. This first script(hosted on [PythonAnywhere](https://www.pythonanywhere.com), selects a random video file and Downloads it using the Google Drive API. Using OpenCV, it save a random frame from the episode and uploads it to the Drive.
+The episodes are stored in the Drive as .mkv files. This first script(hosted on [PythonAnywhere](https://www.pythonanywhere.com)) selects a random video file and Downloads it using the Google Drive API. Using OpenCV, it save a random frame from the episode and uploads it to the Drive.
 After uploading the frame to the drive, both the frame and the video get deleted from the PythonAnywhere file manager to avoid flooding.
 
 This script runs daily and uploads 24 frames to the Drive(one for every hour of the day).
