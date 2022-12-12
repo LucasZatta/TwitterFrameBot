@@ -32,7 +32,7 @@ Python Anywhere can download the video files to its file manager in a way that t
 By using it to download one video at a time(and deleting after using it to avoid flooding), it can "produce" frames and upload them to the Google Drive, where the second script hosted on Heroku.com can access the frames and upload them(and then also delete them from the drive to avoid flooding). The second script is always-on-task.
 
 ## You can find the bot [here!](https://twitter.com/BotJorel)
-This bot is not being maintened anymore. It has been suspended three times already for DMCA strikes(Although it always gets back up real quick, its a real bother having to deal with it).
+This bot is not being maintained anymore. It has been suspended three times already for DMCA strikes(Although it always gets back up real quick, its a real bother having to deal with it).
 But if you want to scroll and check those screencaps anyway, click the link above. There are some real good stuff there hahahah
 
 ![jorel](joreLFrame.jpeg)  
